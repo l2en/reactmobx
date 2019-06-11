@@ -83,6 +83,12 @@ module.exports = {
   appNodeModules: resolveApp('node_modules'),
   publicUrl: getPublicUrl(resolveApp('package.json')),
   servedPath: getServedPath(resolveApp('package.json')),
+  appApi: resolveApp( 'src/api' ),
+  appComponents: resolveApp('src/components'),
+  appPages: resolveApp( 'src/pages' ),
+  appRoutes: resolveApp('src/routes'),
+  appStores: resolveApp( 'src/stores' ),
+  appUtils: resolveApp('src/utils')
 };
 
 
